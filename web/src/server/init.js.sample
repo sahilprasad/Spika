@@ -4,10 +4,10 @@
     // Class ------------------------------------------------
     var Config = {};
     
-    Config.host = "45.55.81.215";
+    Config.host = "localhost";
     Config.port = 80;
-    Config.urlPrefix = '/spika';
-    Config.socketNameSpace = '/spika';
+    Config.urlPrefix = '/chat';
+    Config.socketNameSpace = '/chat';
 
     Config.imageDownloadURL = "http://" + Config.host + "/:" + Config.port + Config.urlPrefix + "/media/images/";
     Config.noavatarImg = "http://" + Config.host + ":" + Config.port + Config.urlPrefix + "/img/noavatar.png";
